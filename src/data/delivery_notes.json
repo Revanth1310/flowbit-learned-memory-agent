@@ -1,0 +1,20 @@
+[
+  {
+    "dnNumber": "DN-A-123",
+    "vendor": "Supplier GmbH",
+    "poNumber": "PO-A-050",
+    "date": "2024-01-10",
+    "lineItems": [
+      { "sku": "WIDGET-001", "qtyDelivered": 95 }
+    ]
+  },
+  {
+    "dnNumber": "DN-A-124",
+    "vendor": "Supplier GmbH",
+    "poNumber": "PO-A-051",
+    "date": "2024-01-22",
+    "lineItems": [
+      { "sku": "WIDGET-002", "qtyDelivered": 20 }
+    ]
+  }
+]

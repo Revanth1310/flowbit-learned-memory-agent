@@ -1,0 +1,42 @@
+[
+  {
+    "invoiceId": "INV-A-001",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-001",
+      "invoiceDate": "12.01.2024",
+      "serviceDate": null,
+      "currency": "EUR",
+      "poNumber": "PO-A-050",
+      "netTotal": 2500.0,
+      "taxRate": 0.19,
+      "taxTotal": 475.0,
+      "grossTotal": 2975.0,
+      "lineItems": [
+        { "sku": "WIDGET-001", "description": "Widget", "qty": 100, "unitPrice": 25.0 }
+      ]
+    },
+    "confidence": 0.78,
+    "rawText": "Rechnungsnr: INV-2024-001\nLeistungsdatum: 01.01.2024\nBestellnr: PO-A-050"
+  },
+  {
+    "invoiceId": "INV-A-002",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-002",
+      "invoiceDate": "18.01.2024",
+      "serviceDate": null,
+      "currency": "EUR",
+      "poNumber": "PO-A-050",
+      "netTotal": 2375.0,
+      "taxRate": 0.19,
+      "taxTotal": 451.25,
+      "grossTotal": 2826.25,
+      "lineItems": [
+        { "sku": "WIDGET-001", "description": "Widget", "qty": 95, "unitPrice": 25.0 }
+      ]
+    },
+    "confidence": 0.72,
+    "rawText": "Rechnungsnr: INV-2024-002\nLeistungsdatum: 15.01.2024\nHinweis: Teillieferung"
+  }
+]
